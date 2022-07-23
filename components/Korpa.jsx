@@ -49,7 +49,7 @@ const Korpa = () => {
                 <div className="flex top">
                   <h5>{item.naziv}</h5>
                  
-                  <h4>{item.cena} Rsd</h4>
+                  <h4>{item.cena}Rsd</h4>
                 </div>
                   {
                     item.zaliha > 0 ? <h5>{item.zaliha > 4 ? <p> Na stanju {item.zaliha} komada </p> : <p> Ostalo jos samo {item.zaliha} komada</p>} </h5> : <h5>Proizvod nedosupan</h5>
